@@ -1,17 +1,25 @@
-const express = require("express");
-const routes = require("./routes");
+const Executable = require("./lib/index");
 const inquirer = require('inquirer');
 
-const PORT = process.env.PORT || 3001;
-const app = express();
+const runExec = new Executable();
 
-app.use(express.urlencoded({ extended: false }));
-app.use(express.json());
+inquirer
+    .prompt([
+        {
+            type: list,
+            message: 'Welcome to Employee Database. What would you like to do?',
+            choices: ['View all Employees', 'View all Departments', 'View all Roles', 'Add an Employee', 'Add a Department', 'Add a Role', 'Update Employee Role'],
+        }
+    ]).then((response) => {
+        if (response === 'View all Employees') {
+            runExec.getEmployess();
+        } else if (response === 'View all Departments') {
+            runExec.getDepartment();
+        } else if (response === 'View all Roles') {
+            runExec.getRoles();
+        } else if (response === 'Add an Employee') {
+            runExec.addEmployee();
+        }
+    });
 
-app.use(routes);
 
-
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});

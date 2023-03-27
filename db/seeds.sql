@@ -1,13 +1,13 @@
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
 VALUES ('Richard', 'James', 008, ''),
-       ('Knuckles', 'Frankie', 001, ),
-       ('Heard', 'Larry', 001,),
-       ('Vibert', 'Luke', 005,),
-       ('Bangalter', 'Thomas', 002),
-       ('de Homem-Christo', 'Guy-Manuel', 003),
+       ('Knuckles', 'Frankie', 001, ''),
+       ('Heard', 'Larry', 001, ''),
+       ('Vibert', 'Luke', 005, ''),
+       ('Bangalter', 'Thomas', 002, ''),
+       ('de Homem-Christo', 'Guy-Manuel', 003, ''),
 
 
-INSERT INTO role (id, title, salary, department_id)
+INSERT INTO roles (id, title, salary, department_id)
 VALUES  ( 001, 'Production Associate', 50000, 001),
         ( 002, 'Production Lead', 65000, 001),
         ( 003, 'Production Associate', 50000, 002),
