@@ -31,12 +31,37 @@ WHEN I choose to update an employee role
 THEN I am prompted to select an employee to update and their new role and this information is updated in the database 
 ```
 
+## Table of Contents
+
+  - [Installation](#installation)
+
+  - [Usage](#usage)
+
+  - [Credits](#credits)
+
+  - [License](#license)
+
+
+
+## Installation
+To install this app download the package from the repository. Open the package in a code editor. Run `npm i` to install necessary packages. 
+Connect to mysql, initialize the database and optionally run seeds. 
+After intalling packages, run `npm run start` to initialize. Enter your info and keep track of your employees!
+## Usage
+This app is designed for employee tracking. Manage employee names, role titles, salary, managers, and departments. 
+
 ## Credits
 
-## Screenshot of Application
 
-## Deployed App
+  ### [Github](https://github.com/jbungurait)
+  ### [Email](mailto:jbungurait@gmail.com;)
+  ### [LinkedIn](https://www.linkedin.com/in/josh-ungurait-0045b352/)
 
+## License
 
-## Future Development
+  This project licensed under MIT License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT).
+
+## Video of Application
+
+![Video](https://drive.google.com/file/d/1-xwoAYBFYHnT56fPhqtQ2AHnuGPzf721/view)
 

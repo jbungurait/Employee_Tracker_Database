@@ -137,7 +137,7 @@ function addEmployee() {
             if (err) throw err;
             console.log(
               `${
-                (answers.firstName, answers.lastName)
+                (response.firstName, response.lastName)
               } has been added successfully to the database!`
             );
             initialize();
