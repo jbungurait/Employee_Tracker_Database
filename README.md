@@ -63,5 +63,5 @@ This app is designed for employee tracking. Manage employee names, role titles, 
 
 ## Video of Application
 
-![Video](https://drive.google.com/file/d/1-xwoAYBFYHnT56fPhqtQ2AHnuGPzf721/view)
+[Video](https://drive.google.com/file/d/1-xwoAYBFYHnT56fPhqtQ2AHnuGPzf721/view)
 
